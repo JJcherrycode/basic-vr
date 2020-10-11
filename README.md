@@ -1,17 +1,44 @@
-# basic-vr
-Extending the default UE4 VR template with basic interactions like in Oculus/SteamVR Home. WIP.
+# Expanded UE VR Template
 
-The goal of this project is to add basic VR features to the default UE4 VR map:
+UE version - 4.25.4
 
-- (done) Easy teleport/turn by simply tilting the thumbstick. Tilt the thumbstick up/down to initiate teleport, release to execute. Tilt left-rigth to rotate by 45° in place. 
-- (done) Highlight the object which can be grabbed. Implemented using depth and post process material.
-- (started) Laser pointer interaction: grab, move, rotate
-- Highlight teleport area
-- etc.
+This is a fork of https://github.com/inugames/basic-vr that further expands and adds Oculus/SteamVR Home interactions and features
 
-Check `MotionControllerMap`, `MotionControllerPawn` and `BP_MotionController` for the new/modified stuff.
-The modified or new parts are commented in Orange.
+# All currently implemented features:
 
-Unreal Forum thread: https://forums.unrealengine.com/development-discussion/vr-ar-development/1701223-vr-interaction-project-open-source
+  - :heavy_check_mark: Teleportation - locomotion using teleportation
+  - :heavy_check_mark: Turn in place - rotate character in place
+  - :heavy_check_mark: Physics Hands - hands cannot pass through walls and interact with physic based objects
+  - :heavy_check_mark: Physics pickup - picked up objects with calculated weigth that impacts hands, retains all collisions and interactions with physic based objects
+  - :heavy_check_mark: Attachable one hand objects - object that is attached to hand, retains all collisions and interactions with physic based objects
+  - :heavy_check_mark: IK Hands - IK on finger when interacting or picking up physics objects
 
+Planned features for future implementation:
+  - :construction: Locomotion with collisions
+  - :x: HMD collisions (RecRoom inspired)
+  - :construction: One handed object pickup with action
+  - :x: Two handed object pickup with action
+  - :x: Hand gestures
+
+:heavy_check_mark: finished
+:x: not yet started
+:construction: work in proggress
+
+
+### Development
+
+Want to contribute? Great!
+
+You can take a task from planned features that isn't tagged started (or you don't see any branch with that task) and start working.
+
+
+### Contributors
+
+ - @inugames
+ - @JJcherrycode
+
+License
+----
+
+MIT
 
