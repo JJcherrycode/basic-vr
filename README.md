@@ -18,24 +18,26 @@ This is a fork of https://github.com/inugames/basic-vr that further expands and 
   
 ![physic_hands](./gif/physic_hands.gif)
 
-  - :heavy_check_mark: Physics pickup - picked up objects with calculated weigth that impacts hands, retains all collisions and interactions with physic based objects
-  
-![physics_objects](./gif/physics_objects.gif)
-
-  - :heavy_check_mark: Attachable one hand objects - object that is attached to hand, retains all collisions and interactions with physic based objects
-  
-![attachable_object](./gif/attachable_object.gif)
-
   - :heavy_check_mark: IK Hands - IK on finger when interacting or picking up physics objects
   
 ![ik](./gif/ik.gif)
 
+  - :heavy_check_mark: Physics pickup - picked up objects with calculated weigth that impacts hands, retains all collisions and interactions with physic based objects
+  
+![physics_objects](./gif/physics_objects.gif)
+
+  - :heavy_check_mark: Attachable one hand objects - object that is attached to hand, retains all collisions and interactions with physic based objects with action
+  
+![attachable_object](./gif/attachable_object.gif)
+
+![gun](./gif/gun.gif)
+
 Planned features for future implementation:
-  - :construction: Locomotion with collisions
+  - :x: Locomotion with collisions
   - :x: HMD collisions (RecRoom inspired)
-  - :construction: One handed object pickup with action
   - :x: Two handed object pickup with action
   - :x: Hand gestures
+  - :construction: Interactable objects (doors, drawers, buttons and levers)
 
 :heavy_check_mark: finished
 :x: not yet started
