@@ -1,8 +1,10 @@
 # Expanded UE VR Template
 
-Developed using UE 4.25.3
+Developed using UE 4.26
 
 This is a fork of https://github.com/inugames/basic-vr that further expands and adds Oculus/SteamVR Home interactions and features
+
+Original Unreal Forum thread: https://forums.unrealengine.com/development-discussion/vr-ar-development/1701223-vr-interaction-project-open-source
 
 # All currently implemented features:
 
