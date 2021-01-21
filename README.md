@@ -8,11 +8,15 @@ Original Unreal Forum thread: https://forums.unrealengine.com/development-discus
 
 # All currently implemented features:
 
-  - :heavy_check_mark: Teleportation - locomotion using teleportation
+  - :heavy_check_mark: Locomotion with collisions (dynamic heigth) - locomotion using thumbstic (left controller)
+  
+  TODO: record gif
+
+  - :heavy_check_mark: Teleportation - locomotion using teleportation (right controller)
   
 ![teleport](./gif/teleport.gif)
 
-  - :heavy_check_mark: Turn in place - rotate character in place
+  - :heavy_check_mark: Turn in place - rotate character in place (right controller)
   
 ![rotation](./gif/rotation.gif)
 
@@ -35,7 +39,6 @@ Original Unreal Forum thread: https://forums.unrealengine.com/development-discus
 ![gun](./gif/gun.gif)
 
 Planned features for future implementation:
-  - :x: Locomotion with collisions
   - :x: HMD collisions (RecRoom inspired)
   - :x: Two handed object pickup with action
   - :x: Hand gestures
