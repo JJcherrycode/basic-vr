@@ -6,6 +6,8 @@ This is a fork of https://github.com/inugames/basic-vr that further expands and 
 
 Original Unreal Forum thread: https://forums.unrealengine.com/development-discussion/vr-ar-development/1701223-vr-interaction-project-open-source
 
+There is oculus-quest-config branch that can be used to generate apk to try out on quest (no performance test were done yet).
+
 # All currently implemented features:
 
   - :heavy_check_mark: Locomotion with collisions (dynamic heigth) - locomotion using thumbstic (left controller)
